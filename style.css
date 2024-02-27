@@ -1,0 +1,75 @@
+body{
+    background-color:   #282b30;
+    text-align: left;
+    margin:0;
+}
+h1, h2, h3 {
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    color: white;
+    
+}
+header h1{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+h2{
+   text-align: left;
+   color: white;
+
+}
+h3{
+    text-align: left;
+    color: white;
+}
+img#hamburger{
+    float: left;
+    margin: 0px;
+    height: 10vh;
+}
+nav{
+    height: 100vh;
+    width: 20%;
+    z-index: 10;
+    display: none ;
+    position: absolute;
+    background-color: #7289da;
+}
+
+nav .div_menu {
+    height: 100px;
+    padding: 20px;
+}
+nav .div_menu img {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+nav .div_menu p {
+    padding: 30px;
+}
+
+
+section{
+    width: 100%;
+    color: white;
+    
+}
+footer{
+    height: 10vh;
+    width: 100%;
+    position: fixed ;
+}
+
+img.icon{
+    float: right ;
+    margin: 0px;
+    padding: 0px;
+        
+}
+
